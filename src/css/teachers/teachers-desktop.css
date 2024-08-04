@@ -1,0 +1,15 @@
+@media screen and (min-width: 1280px) {
+  .teachers-list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .teacher-card {
+    width: 100%;
+    max-width: 232px;
+  }
+
+  .teacher-card:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

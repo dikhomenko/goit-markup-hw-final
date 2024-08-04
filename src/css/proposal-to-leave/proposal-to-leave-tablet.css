@@ -1,0 +1,98 @@
+/* Tablet styles */
+@media only screen and (min-width: 768px) {
+  .proposal-to-leave {
+    padding: 50px 32px;
+  }
+
+  .proposal-to-leave .container {
+    max-width: 704px;
+    border-radius: 30px;
+    overflow: visible;
+    padding: 64px 32px;
+  }
+
+  .proposal-to-leave-title {
+    font-size: 60px;
+    line-height: 1.17;
+
+    margin-bottom: 82px;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 64px 33px;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .outer-card {
+    width: 667px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    transform: translateX(-16px);
+  }
+
+  .outer-card::after,
+  .outer-card::before {
+    border-radius: 30px;
+  }
+
+  .outer-card::after {
+    transform: rotateZ(10deg) translateZ(-1px);
+  }
+
+  .outer-card::before {
+    transform: rotateZ(-10deg) translateZ(-1px);
+  }
+
+  .card-title {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 32px;
+  }
+
+  .proposal-list {
+    width: 449px;
+    margin-bottom: 32px;
+  }
+
+  .proposal-item {
+    gap: 16px;
+  }
+
+  .proposal-item-text {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .proposal-item-icon-wrapper {
+    width: 28px;
+    height: 28px;
+  }
+
+  .proposal-to-leave .leave-an-application-btn {
+    width: 306px;
+  }
+
+  .card-img {
+    position: absolute;
+    display: block;
+    top: 173px;
+    right: -52px;
+    width: 214px;
+    height: 263px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-image: url('../../img/proposal-to-leave/books-stack.png');
+    z-index: 3;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .card-img {
+      background-image: url('../../img/proposal-to-leave/books-stack@2x.png');
+    }
+  }
+}

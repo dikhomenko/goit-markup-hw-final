@@ -1,0 +1,19 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./common');
+
+@import url('./header');
+
+@import url('./hero');
+@import url('./about-us');
+@import url('./our-lessons');
+@import url('./proposal-to-leave');
+@import url('./teachers');
+@import url('./leave-app');
+@import url('./reviews');
+
+@import url('./footer');

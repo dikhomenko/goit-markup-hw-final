@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1280px) {
+  .about-content {
+    display: flex;
+  }
+
+  .about-list {
+    margin-bottom: 0;
+  }
+
+  .about-image {
+    display: flex;
+    align-items: center;
+    min-width: 310px;
+    max-width: 310px;
+    padding: 0 28px;
+    margin-left: 32px;
+  }
+}

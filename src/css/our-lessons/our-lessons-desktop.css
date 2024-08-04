@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1280px) {
+  :root {
+    /* Others */
+    --items: 3;
+    --col-indent: 32px;
+    --row-indent: 32px;
+  }
+
+  .our-lessons-item {
+    padding: 32px;
+  }
+
+  .lesson-price {
+    margin-bottom: 16px;
+  }
+}
